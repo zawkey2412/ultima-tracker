@@ -1,0 +1,74 @@
+/* Tracker UI styles */
+#ultima-tracker {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 260px;
+  background: #23272a;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 2px 2px 8px #0008;
+  z-index: 1000;
+  padding: 8px 0 8px 8px;
+  font-family: sans-serif;
+}
+.ut-round {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.ut-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ut-card {
+  display: flex;
+  align-items: center;
+  background: #2c2f33;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.ut-card.ut-active {
+  background: #7289da;
+  color: #fff;
+}
+.ut-portrait {
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.ut-info {
+  flex: 1;
+  font-size: 13px;
+}
+.ut-initiative {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.ut-delayed {
+  margin-left: 6px;
+  color: #ffb347;
+}
+.ut-empty {
+  color: #aaa;
+  padding: 16px;
+}
+#ut-timer {
+  position: fixed;
+  left: 270px;
+  top: 60px;
+  background: #23272a;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 18px;
+  z-index: 1001;
+  display: none;
+}

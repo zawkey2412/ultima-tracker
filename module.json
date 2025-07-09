@@ -1,0 +1,31 @@
+{
+  "name": "ultima-tracker",
+  "title": "Ultima Tracker",
+  "description": "A system-agnostic, combat-enhancing module that replaces Foundry’s default combat tracker with a powerful, customizable, sidebar HUD.",
+  "version": "0.1.0",
+  "author": "Your Name",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "scripts": [
+    "scripts/init.js",
+    "scripts/trackerUI.js",
+    "scripts/turnTimer.js",
+    "scripts/delayTurn.js",
+    "scripts/roundManager.js",
+    "scripts/gmPanel.js",
+    "scripts/systemAdapter.js"
+  ],
+  "styles": ["styles/tracker.css", "styles/gmPanel.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "templates": ["templates/tracker.html", "templates/gmPanel.html"],
+  "url": "https://github.com/yourname/ultima-tracker",
+  "manifest": "https://github.com/yourname/ultima-tracker/releases/latest/download/module.json",
+  "download": "https://github.com/yourname/ultima-tracker/releases/latest/download/ultima-tracker.zip",
+  "readme": "README.md"
+}
