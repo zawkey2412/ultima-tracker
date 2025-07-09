@@ -1,4 +1,5 @@
 {
+  "id": "ultima-tracker",
   "name": "ultima-tracker",
   "title": "Ultima Tracker",
   "description": "A system-agnostic, combat-enhancing module that replaces Foundry’s default combat tracker with a powerful, customizable, sidebar HUD.",
